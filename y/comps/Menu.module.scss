@@ -17,11 +17,21 @@
      }
 }
 
+@media only screen and (max-width: 862px) {
+     .container {
+          .container_items {
+               .images_menu {
+                    width: 245px;
+               }
+          }
+     }
+}
+
 @media only screen and (max-width: 560px) {
      .container {
           .container_items {
                .images_menu {
-                    width: 280px;
+                    width: 290px;
                }
           }
      }
