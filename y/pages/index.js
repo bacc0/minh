@@ -27,7 +27,7 @@ export default function Home() {
 
                <footer className={styles.footer} >
                     <div
-                    style={{ fontSize: 5, color: '#555555', textAlign: 'center'}}
+                    style={{ fontSize: 6, color: '#555555', textAlign: 'center'}}
                     >
                          <p> A DISCRETIONARY SERVICE CHARGE OF 12.5% WILL BE APPLIED TO YOUR BILL </p>
                          
