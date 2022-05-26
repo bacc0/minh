@@ -6,11 +6,17 @@ const Contact = () => {
 
 
      return (
-          <div className={styles.container}>
-              <p>533 King’s Road</p>
-              <p>Chelsea London</p>
-              <p>SW10 0TZ</p>
-              <p>T. 0208 127 0808</p>
+     
+          <div className={styles.container} style={{color: '#555555'}}>
+               <a href={'https://goo.gl/maps/d8ogGgMkRYUo55v49'}>
+                    <p>533 King’s Road</p>
+                    <p>Chelsea, London</p>
+                    <p>SW10 0TZ</p>
+               </a>
+
+               <a href={`tel: 00442081270808`} >
+                    <p style={{ marginTop: 4}}>T. 0208 127 0808</p>
+               </a>
           </div>
      )
 };

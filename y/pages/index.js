@@ -25,17 +25,20 @@ export default function Home() {
 
                </main>
 
-               <footer className={styles.footer}>
-                    <a
-                         href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-                         target="_blank"
-                         rel="noopener noreferrer"
+               <footer className={styles.footer} >
+                    <div
+                    style={{ fontSize: 5, color: '#555555', textAlign: 'center'}}
                     >
-                         Powered by{' '}
-                         <span className={styles.logo}>
-                              <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-                         </span>
-                    </a>
+                         <p> A DISCRETIONARY SERVICE CHARGE OF 12.5% WILL BE APPLIED TO YOUR BILL </p>
+                         
+                         <p>
+                         Although all due care is taken, dishes may still contain ingredients that are not set out on the menu and these ingredients may cause an allergic reaction.
+                         </p>
+
+                         <p>
+                      Guests with allergies need to be aware of this risk and should ask a member of the team for information on the allergen content of our food.
+                         </p>
+                         </div>
                </footer>
           </div>
      )
