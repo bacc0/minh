@@ -1,0 +1,21 @@
+.container {
+     // background-color: rgb(39, 203, 47);
+    position: relative;
+    left: 300px;
+    top: -110px;
+    margin-bottom: 0px;
+
+    p{
+         margin: 0;
+         font-size: 0.7rem;
+    }
+}
+
+@media only screen and (max-width: 862px) {
+     .container {
+     position: relative;
+     left: 0px;
+    top: 0px;
+    margin-bottom: 22px;
+    }
+}

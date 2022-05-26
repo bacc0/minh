@@ -2,6 +2,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Menu from '../comps/Menu'
+import Logo from '../comps/Logo'
+import Contact from '../comps/Contact'
+
 
 
 export default function Home() {
@@ -14,9 +17,8 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Minh5
-        </h1>
+        <Logo />
+        <Contact />
         <Menu />
 
 
