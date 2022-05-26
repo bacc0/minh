@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Menu from '../comps/Menu'
+
 
 export default function Home() {
   return (
@@ -13,12 +15,12 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-        Minh5
+          Minh5
         </h1>
+        <Menu />
 
-       
 
-        
+
       </main>
 
       <footer className={styles.footer}>
