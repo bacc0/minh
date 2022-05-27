@@ -20,9 +20,6 @@ export default function Home() {
                     <Logo />
                     <Contact />
                     <Menu />
-
-
-
                </main>
 
                <footer className={styles.footer} >
