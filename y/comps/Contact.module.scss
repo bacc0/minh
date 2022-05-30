@@ -1,25 +1,41 @@
 .container {
      position: relative;
+     top: -110px;
      left: 348px;
-     top: -118px;
      margin-bottom: 0px;
 
      p {
           margin: 0;
           font-size: 0.6rem;
+          font-weight: 300;
      }
-
+     .tel {
+          // margin-top: 3px;
+          font-weight: 500;
+     }
 }
 
 @media only screen and (max-width: 862px) {
      .container {
           position: relative;
+          top: 8px;
           left: 0px;
-          top: 0px;
-          margin-bottom: 22px;
+          margin-bottom: 52px;
           p{
                font-size: 0.8rem;
           }
      }
+}
 
+@media only screen and (max-width: 560px) {
+     .container {
+          position: relative;
+          top: 10px;
+          left: 0px;
+          margin-top: 20px;
+
+          p {
+               font-size: 1rem;
+          }
+     }
 }

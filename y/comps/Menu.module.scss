@@ -1,37 +1,85 @@
+.base {
+     text-align: center;
+     position: relative;
+     top: 74px;
 
+     .desserts {
+          background-color: #F4F4F4;
+          width: 220px;
+          border-radius: 11px;
+          position: relative;
+          top: 56px;
+          left: -2px;
+          padding: 11px 0px 5px 0px;
+          margin: auto;
 
-.container {
-  
-     display: flex;
-     flex-wrap: wrap;
-     justify-content: space-around;
+          img {
+               width: 220px;
+          }
+     }
 
-     .container_items {
+     .container {
           display: flex;
           flex-wrap: wrap;
-          justify-content: center;
+          justify-content: space-around;
+          position: relative;
+          top: 15px;
 
-          .images_menu {
-               width: 200px;
+          .container_items {
+               display: flex;
+               flex-wrap: wrap;
+               justify-content: center;
+
+               .images_menu {
+                    width: 200px;
+               }
           }
      }
 }
 
 @media only screen and (max-width: 862px) {
-     .container {
-          .container_items {
-               .images_menu {
-                    width: 245px;
+
+     .base {
+          top: 44px;
+
+          .desserts {
+
+               width: 220px;
+               left: -2px;
+          }
+
+          .container {
+               .container_items {
+                    .images_menu {
+                         width: 245px;
+                    }
                }
           }
      }
 }
 
 @media only screen and (max-width: 560px) {
-     .container {
-          .container_items {
-               .images_menu {
-                    width: 290px;
+     .base {
+          top: 30px;
+
+          .desserts {
+               width: 248px;
+
+               top: 56px;
+               left: 2px;
+
+               img {
+                    width: 250px;
+               }
+          }
+
+          .container {
+               top: 28px;
+
+               .container_items {
+                    .images_menu {
+                         width: 290px;
+                    }
                }
           }
      }

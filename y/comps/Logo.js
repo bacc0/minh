@@ -1,18 +1,32 @@
-
+import { useEffect, useState } from 'react';
 import styles from './Logo.module.scss';
 
 
 const Logo = () => {
+     
+     const [top, setTop] = useState(-16);
+
+     useEffect(() => {
+          setInterval(() => {
+               setTop(0);
+          }, 100);
+     }, []);
 
 
      return (
-          <>
+          <div
+               style={{
+                    position: 'relative',
+                    top: top,
+                    transition:'top .6s'
+               }}
+          >
                <img
                     src={'./logo.svg'}
-                    min_width_600px={222}
                     className={styles.logo}
+                    alt="logo Minh Pan asian restaurant"
                />
-          </>
+          </div>
      )
 };
 

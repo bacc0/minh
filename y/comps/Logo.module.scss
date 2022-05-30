@@ -1,19 +1,13 @@
 .logo {
      width: 420px;
      position: relative;
-     top: -36px;
+     top: -28px;
      left: 2px;
 }
-// @media only screen and (max-width: 863px) {
-//      .logo {
-//           width: 350px;
-//           top: -35px;
-//      }
-// }
 
 @media only screen and (max-width: 560px) {
      .logo {
-          width: 330px;
           top: -30px;
+          width: 330px;
      }
 }

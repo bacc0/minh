@@ -1,13 +1,9 @@
-
 import styles from './Contact.module.scss';
 
-
 const Contact = () => {
-
-
-     return (
      
-          <div className={styles.container} style={{color: '#555555'}}>
+     return (
+          <div className={styles.container}>
                <a href={'https://goo.gl/maps/d8ogGgMkRYUo55v49'}>
                     <p>533 King’s Road</p>
                     <p>Chelsea, London</p>
@@ -15,7 +11,7 @@ const Contact = () => {
                </a>
 
                <a href={`tel: 00442081270808`} >
-                    <p style={{ marginTop: 4}}>T. 0208 127 0808</p>
+                    <p className={styles.tel}>T. 0208 127 0808</p>
                </a>
           </div>
      )

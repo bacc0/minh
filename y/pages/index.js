@@ -4,10 +4,71 @@ import styles from '../styles/Home.module.css'
 import Menu from '../comps/Menu'
 import Logo from '../comps/Logo'
 import Contact from '../comps/Contact'
-
+import PicsComp from '../comps/PicsComp'
+import QRcode from '../comps/QRcode'
+import { useEffect, useState } from 'react';
 
 
 export default function Home() {
+     const [opacityAll, setOpacityAll] = useState(0);
+
+     const [topContact, setTopContact] = useState(-8);
+     const [topPics, setTopPics] = useState(12);
+     const [topMenu, setTopMenu] = useState(36);
+
+     useEffect(() => {
+          setInterval(() => {
+               setOpacityAll(1);
+          }, 5);
+     }, []);
+
+     useEffect(() => {
+          setInterval(() => {
+               setTopContact(0);
+               setTopPics(0);
+               setTopMenu(0);
+          }, 100);
+     }, []);
+
+     const tempContact = (
+          <div
+               style={{
+                    position: 'relative',
+                    top: topContact,
+                    transition: 'top 0.6s'
+               }}
+          >
+               <Contact />
+          </div>
+     );
+
+     const tempPics = (
+          <div
+               style={{
+                    textAlign: 'center',
+                    position: 'relative',
+                    top: topPics,
+                    transition: 'top .6s'
+               }}>
+               <PicsComp />
+
+          </div>
+     );
+
+     const tempMenu = (
+          <div
+               style={{
+                    textAlign: 'center',
+                    position: 'relative',
+                    top: topMenu,
+                    transition: 'top .6s'
+               }}
+          >
+               <Menu />
+               <QRcode />
+          </div>
+     );
+
      return (
           <div className={styles.container}>
                <Head>
@@ -16,26 +77,35 @@ export default function Home() {
                     <link rel="icon" href="/favicon.ico" />
                </Head>
 
-               <main className={styles.main}>
+               <main className={styles.main}
+                    style={{
+                         opacity: opacityAll,
+                         transition: 'opacity 1s',
+                         // background: 'beige'
+                    }}
+               >
                     <Logo />
-                    <Contact />
-                    <Menu />
+                    {tempContact}
+            
+                    {tempPics}
+                    {tempMenu}
+                    
                </main>
 
                <footer className={styles.footer} >
                     <div
-                    style={{ fontSize: 6, color: '#555555', textAlign: 'center'}}
+                         style={{  }}
                     >
                          <p> A DISCRETIONARY SERVICE CHARGE OF 12.5% WILL BE APPLIED TO YOUR BILL </p>
-                         
+
                          <p>
-                         Although all due care is taken, dishes may still contain ingredients that are not set out on the menu and these ingredients may cause an allergic reaction.
+                              Although all due care is taken, dishes may still contain ingredients that are not set out on the menu and these ingredients may cause an allergic reaction.
                          </p>
 
                          <p>
-                      Guests with allergies need to be aware of this risk and should ask a member of the team for information on the allergen content of our food.
+                              Guests with allergies need to be aware of this risk and should ask a member of the team for information on the allergen content of our food.
                          </p>
-                         </div>
+                    </div>
                </footer>
           </div>
      )
