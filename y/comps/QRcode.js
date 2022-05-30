@@ -2,7 +2,7 @@ import styles from './QRcode.module.scss';
 
 
 const QRcode = () => {
-     
+
      return (
           <div className={styles.container}>
 
@@ -10,6 +10,7 @@ const QRcode = () => {
                     src={'./qr.svg'}
                     className={styles.images_menu}
                     alt="picture QR code"
+                    
                />
           </div>
      )
