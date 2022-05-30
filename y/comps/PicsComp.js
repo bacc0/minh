@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 const PicsComp = () => {
 
      // const [movement, setMovement] = useState(-8);
-     const [grayscale, setGrayscale] = useState('100%');
+     const [grayscale, setGrayscale] = useState('60%');
 
      // useEffect(() => {
      //      setInterval(() => {
