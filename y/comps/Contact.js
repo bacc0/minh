@@ -11,7 +11,7 @@ const Contact = () => {
                </a>
 
                <a href={`tel: 00442081270808`} >
-                    <p className={styles.tel}>T. 0208 127 0808</p>
+                    <p className={styles.tel}>T. 0208 127 0808,,,</p>
                </a>
           </div>
      )
