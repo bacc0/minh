@@ -92,10 +92,8 @@ export default function Home() {
                     
                </main>
 
-               <footer className={styles.footer} >
-                    <div
-                         style={{  }}
-                    >
+               {/* <footer className={styles.footer} >
+                    <div>
                          <p> A DISCRETIONARY SERVICE CHARGE OF 12.5% WILL BE APPLIED TO YOUR BILL </p>
 
                          <p>
@@ -106,7 +104,7 @@ export default function Home() {
                               Guests with allergies need to be aware of this risk and should ask a member of the team for information on the allergen content of our food.
                          </p>
                     </div>
-               </footer>
+               </footer> */}
           </div>
      )
 }
