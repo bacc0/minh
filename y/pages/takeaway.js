@@ -32,6 +32,8 @@ const Takeaway = () => {
                                    position: 'relative',
                                    bottom: topMenu,
                                    transition: 'bottom 0.8s',
+                                   // background: 'pink',
+                                   // maxWidth: 290
                               }}
 
                          >

@@ -90,18 +90,21 @@ export default function Home() {
                     {tempContact}
 
                     {tempPics}
-<div style={{ marginTop:70}}/>
+
+                    <div style={{ marginTop: 70 }} />
+
                     <a href={'https://goo.gl/maps/d8ogGgMkRYUo55v49'}>
-                     <h3>Location</h3>    
-                    <ImgHandleInView
-                         src={'./mapBL.svg'}
-                         alt={'map location'}
-                         width={230}
-                         borderRadius={11}
-                    />
+                         <h4>Restaurant Location</h4>
+                         <ImgHandleInView
+                              src={'./mapBL.svg'}
+                              alt={'map location'}
+                              width={230}
+                              borderRadius={11}
+                         />
 
                     </a>
-                    <div style={{ marginBottom:5}}/>
+
+                    <div style={{ marginBottom: 5 }} />
                </main>
 
           </div>
