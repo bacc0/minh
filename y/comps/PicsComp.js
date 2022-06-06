@@ -13,41 +13,41 @@ const PicsComp = () => {
 
      const dataImages = [
           {
-               "src": './1p_xs.jpg',
-               "alt": 'food picture one',
+               "src": './food/1f.jpg',
+               "alt": 'food picture 1',
           },
           {
-               "src": './2p_xs.jpg',
-               "alt": 'food picture two',
+               "src": './food/2f.jpg',
+               "alt": 'food picture 2',
           },
           {
-               "src": './3p_xs.jpg',
-               "alt": 'food picture three',
+               "src": './food/3f.jpg',
+               "alt": 'food picture 3',
           }
           ,
           {
-               "src": './4p_xs.jpg',
-               "alt": 'food picture three',
+               "src": './food/4f.jpg',
+               "alt": 'food picture 4',
           },
           {
-               "src": './5p_xs.jpg',
-               "alt": 'food picture three',
+               "src": './food/5f.jpg',
+               "alt": 'food picture 5',
           },
           {
-               "src": './6p_xs.jpg',
-               "alt": 'food picture three',
+               "src": './food/6f.jpg',
+               "alt": 'food picture 6',
           },
           {
-               "src": './7p_xs.jpg',
-               "alt": 'food picture three',
+               "src": './food/7f.jpg',
+               "alt": 'food picture 7',
           },
           {
-               "src": './8p_xs.jpg',
-               "alt": 'food picture three',
+               "src": './food/8f.jpg',
+               "alt": 'food picture 8',
           },
           {
-               "src": './9p_xs.jpg',
-               "alt": 'food picture three',
+               "src": './food/9f.jpg',
+               "alt": 'food picture 9',
           }
      ]
 
