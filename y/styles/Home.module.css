@@ -81,6 +81,12 @@
   flex-wrap: wrap;
   max-width: 800px;
 }
+.center_item {
+  margin:auto;
+  min-height:calc(90vh - 100px);  ;
+  position: relative;
+  /* border: 3px dotted green;  */
+}
 
 .card {
   margin: 1rem;
@@ -117,9 +123,49 @@
   margin-left: 0.5rem;
 }
 
-@media (max-width: 600px) {
+.textQR {
+  position: relative;
+  top: 0px;
+
+  margin-bottom: 50px;
+  font-size: 0.8rem;
+  font-weight: 300;
+  line-height: 1.4rem;
+  padding:0 12px;
+
+}
+.logo_corner {
+  display: block;
+  position: absolute;
+  top: -32px;
+  left: 20px;
+  cursor: pointer;
+}
+/* @media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+} */
+
+
+@media only screen and (max-width: 862px) {
+  .textQR {
+    top: 6px;
+  }
+
+  .logo_corner {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .textQR {
+    top: 20px;
   }
 }

@@ -7,6 +7,8 @@ import Contact from '../comps/Contact'
 import PicsComp from '../comps/PicsComp'
 import QRcode from '../comps/QRcode'
 import { useEffect, useState } from 'react';
+import Link from 'next/link';
+import ImgHandleInView from '../comps/Img_handle_inview'
 
 
 export default function Home() {
@@ -64,8 +66,8 @@ export default function Home() {
                     transition: 'top .6s'
                }}
           >
-               <Menu />
-               <QRcode />
+               {/* <Menu /> */}
+               {/* <QRcode /> */}
           </div>
      );
 
@@ -86,25 +88,22 @@ export default function Home() {
                >
                     <Logo />
                     {tempContact}
-            
+
                     {tempPics}
-                    {tempMenu}
-                    
+<div style={{ marginTop:70}}/>
+                    <a href={'https://goo.gl/maps/d8ogGgMkRYUo55v49'}>
+                     <h3>Location</h3>    
+                    <ImgHandleInView
+                         src={'./mapBL.svg'}
+                         alt={'map location'}
+                         width={230}
+                         borderRadius={11}
+                    />
+
+                    </a>
+                    <div style={{ marginBottom:5}}/>
                </main>
 
-               {/* <footer className={styles.footer} >
-                    <div>
-                         <p> A DISCRETIONARY SERVICE CHARGE OF 12.5% WILL BE APPLIED TO YOUR BILL </p>
-
-                         <p>
-                              Although all due care is taken, dishes may still contain ingredients that are not set out on the menu and these ingredients may cause an allergic reaction.
-                         </p>
-
-                         <p>
-                              Guests with allergies need to be aware of this risk and should ask a member of the team for information on the allergen content of our food.
-                         </p>
-                    </div>
-               </footer> */}
           </div>
      )
 }

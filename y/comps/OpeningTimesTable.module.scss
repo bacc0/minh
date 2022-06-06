@@ -1,0 +1,19 @@
+.container {
+     width: 260px;
+     font-size: 0.8rem;
+     line-height: 0.7rem;
+     font-weight: 300;
+
+     .day_container {
+          display: flex;
+          justify-content: space-between;
+          // background-color: rgba(65, 210, 3, 0.345);
+
+          .day {
+               position: relative;
+               left: 40px;
+          }
+
+     }
+     
+}
