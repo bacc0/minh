@@ -51,15 +51,15 @@ const Contact = () => {
 
                          </div>
                     </div>
-                    <div style={{
-                         display: 'flex',
-                         justifyContent: 'center',
-                         position: 'relative',
-                         top: topMenu,
-                         transition: 'top 0.8s',
-                    }}
-
-
+                    <div
+                         style={{
+                              display: 'flex',
+                              justifyContent: 'center',
+                              position: 'relative',
+                              top: topMenu,
+                              transition: 'top 0.8s',
+                         }}
+                         className={styles.separatorBottomPics}
                     >
                          <MapPic />
                     </div>

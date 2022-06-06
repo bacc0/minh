@@ -91,15 +91,15 @@ export default function Home() {
 
                     {tempPics}
 
-                    <div style={{ marginTop: 70 }} />
+                    <div style={{ marginTop: 70, color: 'red' }} />
 
                     <a href={'https://goo.gl/maps/d8ogGgMkRYUo55v49'}>
-                         <h4>Restaurant Location</h4>
-                         <ImgHandleInView
+                         <h4 style={{color: '#939393' }}>Restaurant Location</h4>
+                         <img
                               src={'./mapBL.svg'}
                               alt={'map location'}
                               width={230}
-                              borderRadius={11}
+                              style={{borderRadius: 11, border: '0.3px solid #E0E0E0' }}
                          />
 
                     </a>

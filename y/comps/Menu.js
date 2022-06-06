@@ -25,7 +25,7 @@ const Menu = () => {
           >
                <h4
                     style={{
-                         fontSize: 18,
+                         fontSize: '1.1rem',
                          fontWeight: 500,
                          textAlign: 'center',
                          position: 'relative',

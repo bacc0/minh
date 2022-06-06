@@ -54,7 +54,7 @@ const Takeaway = () => {
                          top: topMenu,
                          transition: 'top 0.8s',
                     }}
-
+                    className={styles.separatorBottomPics}
 
                     >
                          <QRcode />
