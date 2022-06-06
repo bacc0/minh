@@ -52,7 +52,7 @@ const Menu = () => {
                >
                     <div className={styles.container_items}>
                          <ImgHandleInView
-                              src={'./1.png'}
+                              src={'./menu/1.png'}
                               alt={"picture Menu food one"}
                               // width={130}
                               borderRadius={0}
@@ -66,7 +66,7 @@ const Menu = () => {
 
                          /> */}
                          <ImgHandleInView
-                              src={'./2.png'}
+                              src={'./menu//2.png'}
                               alt={"picture Menu food two"}
                               // width={130}
                               borderRadius={0}
@@ -82,7 +82,7 @@ const Menu = () => {
                     </div>
                     <div className={styles.container_items}>
                     <ImgHandleInView
-                              src={'./3.png'}
+                              src={'./menu//3.png'}
                               alt={"picture Menu wines and beers"}
                               // width={130}
                               borderRadius={0}
@@ -94,7 +94,7 @@ const Menu = () => {
                               alt="picture Menu wines and beers"
                          /> */}
                            <ImgHandleInView
-                              src={'./4.png'}
+                              src={'./menu//4.png'}
                               alt={"picture Menu soft drinks"}
                               // width={130}
                               borderRadius={0}
