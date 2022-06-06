@@ -34,7 +34,7 @@ const Contact = () => {
                                    transition: 'bottom 0.8s',
                               }}
                          >
-                              <a href={'https://goo.gl/maps/d8ogGgMkRYUo55v49'} target="_blank">
+                              <a href={'https://goo.gl/maps/d8ogGgMkRYUo55v49'}>
                                    <div style={{ cursor: 'pointer' }}>
                                         <div>
                                              <strong>Address</strong>
