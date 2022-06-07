@@ -56,6 +56,15 @@
      line-height: 1.15;
      font-size: 4rem;
 }
+.main h2 {
+     font-family: 'East Sea Dokdo', cursive;
+     font-size: 3.4rem;
+     line-height: 3rem;
+     text-align: center;
+     width: 50%;
+     margin-top: 20px; 
+     margin-bottom: -23px;
+}
 
 .title,
 .description {
@@ -169,7 +178,14 @@
      border-top: 0.5px solid #000000;
 }
 
+
+
 @media only screen and (max-width: 862px) {
+     .main h2 {
+          
+          width: 60%;
+          margin-bottom: 50px;
+     }
      .textQR {
           top: 6px;
           
@@ -181,6 +197,13 @@
 }
 
 @media only screen and (max-width: 560px) {
+
+     .main h2 {
+          
+          width: 80%;
+          margin-top: 34px;
+          margin-bottom: 44px;
+     }
      .grid {
           width: 100%;
           flex-direction: column;

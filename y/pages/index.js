@@ -68,8 +68,6 @@ export default function Home() {
                     transition: 'top .6s'
                }}
           >
-               {/* <Menu /> */}
-               {/* <QRcode /> */}
           </div>
      );
 
@@ -92,6 +90,10 @@ export default function Home() {
                     }}
                >
                     <Logo />
+                    <h2  
+                    >
+                         pan asia food, pub and restaurant
+                    </h2>
                     {tempContact}
 
                     {tempPics}
