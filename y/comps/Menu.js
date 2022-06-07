@@ -8,6 +8,37 @@ const Menu = () => {
      const [topMenu, setTopMenu] = useState(14);
      const [opacity, setOpacity] = useState(0);
 
+     const img_1 = (
+          <img
+               src={'./menu/1.jpg'}
+               className={styles.images_menu}
+               alt="picture Menu food one"
+
+          />
+     )
+     const img_2 = (
+          <img
+               src={'./menu/2.jpg'}
+               className={styles.images_menu}
+               alt="picture Menu food two"
+
+          />
+     )
+     const img_3 = (
+          <img
+               src={'./menu/3.jpg'}
+               className={styles.images_menu}
+               alt="picture Menu wines and beers"
+          />
+     )
+     const img_4 = (
+          <img
+               src={'./menu/4.jpg'}
+               className={styles.images_menu}
+               alt="picture Menu soft drinks"
+          />
+     )
+
      useEffect(() => {
           setInterval(() => {
                setTopMenu(0);
@@ -21,9 +52,6 @@ const Menu = () => {
                style={{
                     opacity: opacity,
                     transition: 'opacity 1.4s',
-                    // position: 'relative',
-                    // top: 23,
-                    
                }}
           >
                <h4
@@ -34,7 +62,6 @@ const Menu = () => {
                          position: 'relative',
                          bottom: topMenu,
                          transition: 'bottom 0.8s',
-                         // transitionDelay: '120ms'
                     }}
                >
                     Menu
@@ -55,60 +82,12 @@ const Menu = () => {
                     className={styles.container}
                >
                     <div className={styles.container_items}>
-                         {/* <ImgHandleInView
-                              src={'./menu/1.png'}
-                              alt={"picture Menu food one"}
-                              // width={130}
-                              borderRadius={0}
-                              style={`${styles.images_menu}`}
-                         /> */}
-
-                         <img
-                              src={'./menu/1.jpg'}
-                              className={styles.images_menu}
-                              alt="picture Menu food one"
-
-                         />
-                         {/* <ImgHandleInView
-                              src={'./menu//2.png'}
-                              alt={"picture Menu food two"}
-                              // width={130}
-                              borderRadius={0}
-                              style={`${styles.images_menu}`}
-                         /> */}
-                         <img
-                              src={'./menu/2.jpg'}
-                              className={styles.images_menu}
-                              alt="picture Menu food two"
-
-                         />
-
+                         {img_1}
+                         {img_2}
                     </div>
                     <div className={styles.container_items}>
-                    {/* <ImgHandleInView
-                              src={'./menu//3.png'}
-                              alt={"picture Menu wines and beers"}
-                              // width={130}
-                              borderRadius={0}
-                              style={`${styles.images_menu}`}
-                         /> */}
-                         <img
-                              src={'./menu/3.jpg'}
-                              className={styles.images_menu}
-                              alt="picture Menu wines and beers"
-                         />
-                           {/* <ImgHandleInView
-                              src={'./menu//4.png'}
-                              alt={"picture Menu soft drinks"}
-                              // width={130}
-                              borderRadius={0}
-                              style={`${styles.images_menu}`}
-                         /> */}
-                         <img
-                              src={'./menu/4.jpg'}
-                              className={styles.images_menu}
-                              alt="picture Menu soft drinks"
-                         />
+                         {img_3}
+                         {img_4}
                     </div>
 
                </div>
