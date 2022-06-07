@@ -15,8 +15,10 @@ const Contact = () => {
           }, 100);
      }, []);
 
-     return (
+     const titleStyle = { fontSize: '0.65rem' }
 
+
+     return (
 
           <div className={`${styles.grid} ${styles.center_item}`}>
 
@@ -56,8 +58,8 @@ const Contact = () => {
                                    <div style={{ cursor: 'pointer' }}>
 
                                         <p>
-                                             <div style={{ fontStyle: 'italic' }}>
-                                                  Address
+                                             <div style={titleStyle}>
+                                                  address
                                              </div>
                                              533 King’s Road, Chelsea, London, SW10 0TZ
                                         </p>
@@ -67,8 +69,8 @@ const Contact = () => {
                                    <div style={{ cursor: 'pointer' }}>
 
                                         <p>
-                                             <div style={{ fontStyle: 'italic' }}>
-                                                  Phone
+                                             <div style={titleStyle}>
+                                                  phone
                                              </div>
                                              0208 127 0808
                                         </p>
