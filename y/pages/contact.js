@@ -65,14 +65,14 @@ const Contact = () => {
                                         </p>
                                    </div>
                               </a>
-                              <Link href={'tel: 00442081270808'}>
+                              <Link href={'tel: 00442034412090'}>
                                    <div style={{ cursor: 'pointer' }}>
 
                                         <p>
                                              <div style={titleStyle}>
                                                   phone
                                              </div>
-                                             0208 127 0808
+                                             0203 441 2090
                                         </p>
 
                                    </div>

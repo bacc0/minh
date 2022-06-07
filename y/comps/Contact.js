@@ -13,8 +13,8 @@ const Contact = () => {
                     <p>SW10 0TZ</p>
                </a>
 
-               <a href={`tel: 00442081270808`} >
-                    <p className={styles.tel}>T. 0208 127 0808</p>
+               <a href={`tel: 00442034412090`} >
+                    <p className={styles.tel}>T. 0203 441 2090</p>
                </a>
           </div>
      )
