@@ -57,7 +57,7 @@ const Open_Hours = () => {
                                              transitionDelay: '15ms'
                                         }}
                                    />
-                                   <div>We take last orders at 9:00pm.</div>
+                                   <p>We take last orders at 9:00pm.</p>
 
                               </div>
                          </div>

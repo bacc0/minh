@@ -10,7 +10,7 @@ const weekDays = (day, times) => {
                <div style={{ position: 'relative', left: -40 }}>
                     {day}
                </div>
-               <div style={{ width: 122 }}>{times}</div>
+               <div>{times}</div>
           </dir>
      )
 }

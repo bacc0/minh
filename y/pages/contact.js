@@ -54,14 +54,24 @@ const Contact = () => {
                               <a href={'https://goo.gl/maps/d8ogGgMkRYUo55v49'}>
 
                                    <div style={{ cursor: 'pointer' }}>
-                                        <div style={{ fontStyle: 'italic' }}>Address</div>
-                                        <div>533 King’s Road, Chelsea, London, SW10 0TZ</div>
+
+                                        <p>
+                                             <div style={{ fontStyle: 'italic' }}>
+                                                  Address
+                                             </div>
+                                             533 King’s Road, Chelsea, London, SW10 0TZ
+                                        </p>
                                    </div>
                               </a>
                               <Link href={'tel: 00442081270808'}>
                                    <div style={{ cursor: 'pointer' }}>
-                                        <div style={{ fontStyle: 'italic' }}>Phone</div>
-                                        <div>0208 127 0808</div>
+
+                                        <p>
+                                             <div style={{ fontStyle: 'italic' }}>
+                                                  Phone
+                                             </div>
+                                             0208 127 0808
+                                        </p>
 
                                    </div>
                               </Link>
