@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const Takeaway = () => {
 
-     const [topMenu, setTopMenu] = useState(26);
+     const [topMenu, setTopMenu] = useState(14);
      const [opacity, setOpacity] = useState(0);
 
      useEffect(() => {

@@ -5,7 +5,7 @@ import styles from './Menu.module.scss';
 
 const Menu = () => {
 
-     const [topMenu, setTopMenu] = useState(36);
+     const [topMenu, setTopMenu] = useState(14);
      const [opacity, setOpacity] = useState(0);
 
      useEffect(() => {

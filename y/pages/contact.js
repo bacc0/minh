@@ -5,7 +5,7 @@ import Link from 'next/link';
 const Contact = () => {
 
 
-     const [topMenu, setTopMenu] = useState(26);
+     const [topMenu, setTopMenu] = useState(14);
      const [opacity, setOpacity] = useState(0);
 
      useEffect(() => {

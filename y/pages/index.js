@@ -15,7 +15,7 @@ export default function Home() {
      const [opacityAll, setOpacityAll] = useState(0);
 
      const [topContact, setTopContact] = useState(-8);
-     const [topPics, setTopPics] = useState(12);
+     const [topPics, setTopPics] = useState(14);
      const [topMenu, setTopMenu] = useState(36);
 
      useEffect(() => {
@@ -38,7 +38,7 @@ export default function Home() {
                     position: 'relative',
                     top: topContact,
                     transition: 'top 0.6s',
-                    transitionDelay: '120ms'
+                    // transitionDelay: '120ms'
                }}
           >
                <Contact />
