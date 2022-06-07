@@ -63,7 +63,7 @@ const PicsComp = () => {
           >
                {
                     dataImages.map((el) =>
-                         <>
+                         <div key={el.src}>
 
                             {/*  <ImgHandleInView
                                    src={el.src}
@@ -78,7 +78,7 @@ const PicsComp = () => {
                                    alt={el.alt}
                               /> 
 
-                         </>
+                         </div>
                     )
                }
           </div>

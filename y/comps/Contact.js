@@ -2,15 +2,12 @@ import styles from './Contact.module.scss';
 
 
 const Contact = () => {
-
-
      
      
      return (
           <div className={styles.container}    
           >
                <a href={'https://goo.gl/maps/d8ogGgMkRYUo55v49'}>
-                    {/* <div></div> */}
                     <p>533 King’s Road</p>
                     <p>Chelsea, London</p>
                     <p>SW10 0TZ</p>

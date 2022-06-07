@@ -5,7 +5,7 @@ import styles from './Menu.module.scss';
 
 const Menu = () => {
 
-     const [topMenu, setTopMenu] = useState(26);
+     const [topMenu, setTopMenu] = useState(36);
      const [opacity, setOpacity] = useState(0);
 
      useEffect(() => {
@@ -31,6 +31,7 @@ const Menu = () => {
                          position: 'relative',
                          bottom: topMenu,
                          transition: 'bottom 0.8s',
+                         // transitionDelay: '120ms'
                     }}
                >
                     Menu
@@ -51,60 +52,60 @@ const Menu = () => {
                     className={styles.container}
                >
                     <div className={styles.container_items}>
-                         <ImgHandleInView
+                         {/* <ImgHandleInView
                               src={'./menu/1.png'}
                               alt={"picture Menu food one"}
                               // width={130}
                               borderRadius={0}
                               style={`${styles.images_menu}`}
-                         />
+                         /> */}
 
-                         {/* <img
-                              src={'./1.png'}
+                         <img
+                              src={'./menu/1.png'}
                               className={styles.images_menu}
                               alt="picture Menu food one"
 
-                         /> */}
-                         <ImgHandleInView
+                         />
+                         {/* <ImgHandleInView
                               src={'./menu//2.png'}
                               alt={"picture Menu food two"}
                               // width={130}
                               borderRadius={0}
                               style={`${styles.images_menu}`}
-                         />
-                         {/* <img
-                              src={'./2.png'}
+                         /> */}
+                         <img
+                              src={'./menu/2.png'}
                               className={styles.images_menu}
                               alt="picture Menu food two"
 
-                         /> */}
+                         />
 
                     </div>
                     <div className={styles.container_items}>
-                    <ImgHandleInView
+                    {/* <ImgHandleInView
                               src={'./menu//3.png'}
                               alt={"picture Menu wines and beers"}
                               // width={130}
                               borderRadius={0}
                               style={`${styles.images_menu}`}
-                         />
-                         {/* <img
-                              src={'./3.png'}
+                         /> */}
+                         <img
+                              src={'./menu/3.png'}
                               className={styles.images_menu}
                               alt="picture Menu wines and beers"
-                         /> */}
-                           <ImgHandleInView
+                         />
+                           {/* <ImgHandleInView
                               src={'./menu//4.png'}
                               alt={"picture Menu soft drinks"}
                               // width={130}
                               borderRadius={0}
                               style={`${styles.images_menu}`}
-                         />
-                         {/* <img
-                              src={'./4.png'}
+                         /> */}
+                         <img
+                              src={'./menu/4.png'}
                               className={styles.images_menu}
                               alt="picture Menu soft drinks"
-                         /> */}
+                         />
                     </div>
 
                </div>

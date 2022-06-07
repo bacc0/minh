@@ -37,7 +37,8 @@ export default function Home() {
                style={{
                     position: 'relative',
                     top: topContact,
-                    transition: 'top 0.6s'
+                    transition: 'top 0.6s',
+                    transitionDelay: '120ms'
                }}
           >
                <Contact />
