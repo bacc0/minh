@@ -16,7 +16,9 @@
      display: flex;
      flex: 1;
      padding: 2rem 0;
-     border-top: 1px solid #eaeaea;
+     /* border-top: 1px solid #eaeaea; */
+     border-top: 0.3px solid #E4E4E4;
+
      justify-content: center;
      align-items: center;
      font-size: 6px;
@@ -86,7 +88,7 @@
 .center_item {
      margin: auto;
      min-height: calc(90vh - 100px);
-     ;
+     
      position: relative;
      /* border: 3px dotted green;  */
 }
@@ -138,7 +140,7 @@
 
      font-size: 0.9rem;
      line-height: 1.4rem;
-     
+
      font-size: 0.8rem;
           line-height: 1.3rem;
 
@@ -160,6 +162,10 @@
 } */
 .separatorBottomPics {
      margin-bottom: 0px;
+}
+
+.hr {
+     border-top: 0.5px solid #000000;
 }
 
 @media only screen and (max-width: 862px) {

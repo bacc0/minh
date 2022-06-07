@@ -3,7 +3,10 @@ import styles from './OpeningTimesTable.module.scss';
 
 const weekDays = (day, times) => {
      return (
-          <dir className={styles.day_container}>
+          <dir
+               className={styles.day_container}
+               style={{ color: times === 'Close' ? '#C0C0C0': null }}
+          >
                <div style={{ position: 'relative', left: -40 }}>
                     {day}
                </div>

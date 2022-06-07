@@ -37,10 +37,9 @@ const Takeaway = () => {
                               }}
 
                          >
-                              <div>
-                                   <strong>How to use QR code </strong> 
-                                   Open the camera app.
-                              </div>
+                              <div> <strong>How to use QR code </strong> </div>
+                              <hr className={styles.hr}/>
+                              <div> Open the camera app. </div>
                               <div>Focus the camera on the QR code by gently tapping the code.</div>
                               <div>Follow the instructions on the screen to complete the action.</div>
                               <div>Or simply click the QR code!</div>

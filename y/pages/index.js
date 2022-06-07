@@ -94,7 +94,7 @@ export default function Home() {
                     <div style={{ marginTop: 70, color: 'red' }} />
 
                     <a href={'https://goo.gl/maps/d8ogGgMkRYUo55v49'}>
-                         <h4 style={{color: '#939393' }}>Restaurant Location</h4>
+                         <h4 style={{color: '#939393', fontSize: '0.8rem' }}>Restaurant Location</h4>
                          <img
                               src={'./mapBL.svg'}
                               alt={'map location'}

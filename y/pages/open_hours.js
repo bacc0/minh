@@ -41,7 +41,9 @@ const Open_Hours = () => {
                               <div>
                                    <strong>Opening Times</strong>
                               </div>
+                              <hr className={styles.hr}/>
                               <div>We take last orders at 9:00pm.</div>
+                              
                          </div>
                          </div>
                     </div>

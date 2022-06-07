@@ -34,18 +34,20 @@ const Contact = () => {
                                    transition: 'bottom 0.8s',
                               }}
                          >
+                              <div> <strong>Contact Info</strong>  </div>
+                               <hr className={styles.hr}/>
                               <a href={'https://goo.gl/maps/d8ogGgMkRYUo55v49'}>
+                                        
                                    <div style={{ cursor: 'pointer' }}>
-                                        <div>
-                                             <strong>Address</strong>
-                                        </div>
+                                        <div style={{ fontStyle: 'italic' }}>Address</div>
                                         <div>533 King’s Road, Chelsea, London, SW10 0TZ</div>
                                    </div>
                               </a>
                               <Link href={'tel: 00442081270808'}>
                                    <div style={{ cursor: 'pointer' }}>
-                                        <div><strong>Phone</strong></div>
+                                        <div style={{ fontStyle: 'italic' }}>Phone</div>
                                         <div>0208 127 0808</div>
+                                       
                                    </div>
                               </Link>
 
