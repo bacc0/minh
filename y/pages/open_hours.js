@@ -30,7 +30,7 @@ const Open_Hours = () => {
                     }}
                >
                     <div className={styles.textQR} >
-                         <div style={{ position: 'relative', top: 5 }}>
+                         <div style={{ position: 'relative', top: 0 }}>
                               <div
                                    style={{
                                         position: 'relative',

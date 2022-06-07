@@ -20,7 +20,10 @@ const Menu = () => {
                className={styles.base}
                style={{
                     opacity: opacity,
-                    transition: 'opacity 1.4s'
+                    transition: 'opacity 1.4s',
+                    // position: 'relative',
+                    // top: 23,
+                    
                }}
           >
                <h4

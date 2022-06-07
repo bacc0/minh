@@ -54,9 +54,9 @@ const Takeaway = () => {
                                         transitionDelay: '15ms'
                                    }}
                               />
-                              <div> Open the camera app. </div>
-                              <div>Focus the camera on the QR code by gently tapping the code.</div>
-                              <div>Follow the instructions on the screen to complete the action.</div>
+                              <div>1. Open the camera app. </div>
+                              <div>2. Focus the camera on the QR code by gently tapping the code.</div>
+                              <div>3. Follow the instructions on the screen to complete the action.</div>
                               <div>Or simply click the QR code!</div>
 
                          </div>

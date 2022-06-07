@@ -83,6 +83,7 @@
      justify-content: center;
      flex-wrap: wrap;
      max-width: 800px;
+     padding-top:0px
 }
 
 .center_item {
@@ -183,6 +184,8 @@
      .grid {
           width: 100%;
           flex-direction: column;
+          justify-content: flex-start;
+          padding-top: 26px
      }
 
      .textQR {
