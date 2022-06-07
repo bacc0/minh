@@ -91,7 +91,7 @@ export default function Home() {
                >
                     <Logo />
                     <h2>
-                         pan-Asian food, pub and restaurant
+                         pan-Asian FOoD, Pub and Restaurant
                     </h2>
                     {tempContact}
 
