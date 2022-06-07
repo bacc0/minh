@@ -64,7 +64,7 @@ const Menu = () => {
                          /> */}
 
                          <img
-                              src={'./menu/1.png'}
+                              src={'./menu/1.jpg'}
                               className={styles.images_menu}
                               alt="picture Menu food one"
 
@@ -77,7 +77,7 @@ const Menu = () => {
                               style={`${styles.images_menu}`}
                          /> */}
                          <img
-                              src={'./menu/2.png'}
+                              src={'./menu/2.jpg'}
                               className={styles.images_menu}
                               alt="picture Menu food two"
 
@@ -93,7 +93,7 @@ const Menu = () => {
                               style={`${styles.images_menu}`}
                          /> */}
                          <img
-                              src={'./menu/3.png'}
+                              src={'./menu/3.jpg'}
                               className={styles.images_menu}
                               alt="picture Menu wines and beers"
                          />
@@ -105,7 +105,7 @@ const Menu = () => {
                               style={`${styles.images_menu}`}
                          /> */}
                          <img
-                              src={'./menu/4.png'}
+                              src={'./menu/4.jpg'}
                               className={styles.images_menu}
                               alt="picture Menu soft drinks"
                          />
@@ -115,7 +115,7 @@ const Menu = () => {
 
                <div className={styles.desserts}>
                     <img
-                         src={'./dessertsPic.svg'}
+                         src={'./menu/dessertsPic.svg'}
                          className={styles.images_menu}
                          alt="picture Menu desserts"
                     />
