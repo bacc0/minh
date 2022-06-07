@@ -18,6 +18,7 @@ export default function Home() {
      const [topContact, setTopContact] = useState(-8);
      const [topPics, setTopPics] = useState(14);
      const [topMenu, setTopMenu] = useState(36);
+     const [zoom, setZoom] = useState('10%');
 
      useEffect(() => {
           setInterval(() => {
@@ -30,6 +31,7 @@ export default function Home() {
                setTopContact(0);
                setTopPics(0);
                setTopMenu(0);
+               setZoom('100%')
           }, 200);
      }, []);
 
@@ -52,7 +54,8 @@ export default function Home() {
                     textAlign: 'center',
                     position: 'relative',
                     top: topPics,
-                    transition: 'top .6s'
+                    transition: 'top .6s',
+                    transitionDelay: '80ms'
                }}>
                <PicsComp />
 
@@ -90,7 +93,16 @@ export default function Home() {
                     }}
                >
                     <Logo />
-                    <h2>
+                    <h2 
+                       style={{
+                         position: 'relative',
+                         opacity: opacityAll,
+                         bottom: topContact,
+                         transition: 'bottom .6s, opacity .6s',
+                         
+                       }}
+                    
+                    >
                          pan-Asian FOoD, Pub and Restaurant
                     </h2>
                     {tempContact}
