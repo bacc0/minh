@@ -11,6 +11,7 @@ import Link from 'next/link';
 import ImgHandleInView from '../comps/Img_handle_inview'
 
 
+
 export default function Home() {
      const [opacityAll, setOpacityAll] = useState(0);
 
@@ -73,6 +74,9 @@ export default function Home() {
      );
 
      return (
+        
+         
+
           <div className={styles.container}>
                <Head>
                     <title>MINH 🍝 Pan Asian Restaurant</title>
@@ -109,5 +113,6 @@ export default function Home() {
                </main>
 
           </div>
+     
      )
 }
