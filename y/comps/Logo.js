@@ -9,7 +9,7 @@ const Logo = () => {
      useEffect(() => {
           setInterval(() => {
                setTop(0);
-          }, 100);
+          }, 200);
      }, []);
 
 

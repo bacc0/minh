@@ -14,7 +14,7 @@ const ImgHandleInView = ({ src, alt, width, borderRadius = 0, threshold = 0.5, s
      useEffect(() => {
           if (inView) {
                setVisible(true),
-                    setInterval(() => { setOpacity(1) }, 100)
+                    setInterval(() => { setOpacity(1) }, 200)
           }
      }, [inView]);
 

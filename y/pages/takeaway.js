@@ -13,7 +13,7 @@ const Takeaway = () => {
           setInterval(() => {
                setTopMenu(0);
                setOpacity(1)
-          }, 100);
+          }, 200);
      }, []);
 
      return (

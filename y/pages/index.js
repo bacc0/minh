@@ -29,7 +29,7 @@ export default function Home() {
                setTopContact(0);
                setTopPics(0);
                setTopMenu(0);
-          }, 100);
+          }, 200);
      }, []);
 
      const tempContact = (
