@@ -56,6 +56,10 @@
      line-height: 1.15;
      font-size: 4rem;
 }
+.eastSeaDokdo_font {
+     font-family: 'East Sea Dokdo', cursive;
+     font-size: 2rem;
+}
 .main h2 {
      font-family: 'East Sea Dokdo', cursive;
      font-size: 3.4rem;
@@ -200,9 +204,10 @@
 
      .main h2 {
           
-          width: 80%;
+          width: 96%;
           margin-top: 34px;
           margin-bottom: 44px;
+          font-size: 3rem;
      }
      .grid {
           width: 100%;
