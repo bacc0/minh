@@ -90,9 +90,8 @@ export default function Home() {
                     }}
                >
                     <Logo />
-                    <h2  
-                    >
-                         pan asia food, pub and restaurant
+                    <h2>
+                         pan-Asian food, pub and restaurant
                     </h2>
                     {tempContact}
 
