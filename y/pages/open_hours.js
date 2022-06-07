@@ -30,21 +30,36 @@ const Open_Hours = () => {
                     }}
                >
                     <div className={styles.textQR} >
-                         <div style={{position: 'relative', top: 5}}>
-                         <div
-                              style={{
-                                   position: 'relative',
-                                   bottom: topMenu,
-                                   transition: 'bottom 0.8s',
-                              }}
-                         >
-                              <div>
-                                   <strong>Opening Times</strong>
+                         <div style={{ position: 'relative', top: 5 }}>
+                              <div
+                                   style={{
+                                        position: 'relative',
+                                        bottom: topMenu,
+                                        transition: 'bottom 0.8s',
+                                   }}
+                              >
+                                   <div
+                                        style={{
+                                             position: 'relative',
+                                             bottom: topMenu,
+                                             transition: 'bottom 0.8s',
+                                             transitionDelay: '60ms'
+                                        }}
+                                   >
+                                        <strong>Opening Times</strong>
+                                   </div>
+                                   <hr
+                                        className={styles.hr}
+                                        style={{
+                                             position: 'relative',
+                                             bottom: topMenu,
+                                             transition: 'bottom 0.8s',
+                                             transitionDelay: '15ms'
+                                        }}
+                                   />
+                                   <div>We take last orders at 9:00pm.</div>
+
                               </div>
-                              <hr className={styles.hr}/>
-                              <div>We take last orders at 9:00pm.</div>
-                              
-                         </div>
                          </div>
                     </div>
                     <div
@@ -59,16 +74,16 @@ const Open_Hours = () => {
                          <OpeningTimesTable />
                     </div>
                </div>
-                    <Link href={'/'}>
-                         <div className={styles.logo_corner}>
-                              <img
-                                   src={'/logo.jpg'}
-                                   className={styles.icons}
-                                   width={60}
-                                   alt={'logo'}
-                              />
-                         </div>
-                    </Link>
+               <Link href={'/'}>
+                    <div className={styles.logo_corner}>
+                         <img
+                              src={'/logo.jpg'}
+                              className={styles.icons}
+                              width={60}
+                              alt={'logo'}
+                         />
+                    </div>
+               </Link>
           </div>
      )
 };

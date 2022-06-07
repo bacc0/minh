@@ -34,10 +34,25 @@ const Contact = () => {
                                    transition: 'bottom 0.8s',
                               }}
                          >
-                              <div> <strong>Contact Info</strong>  </div>
-                               <hr className={styles.hr}/>
+                              <div
+                                   style={{
+                                        position: 'relative',
+                                        bottom: topMenu,
+                                        transition: 'bottom 0.8s',
+                                        transitionDelay: '60ms'
+                                   }}
+                              > <strong>Contact Info</strong>  </div>
+                              <hr
+                                   style={{
+                                        position: 'relative',
+                                        bottom: topMenu,
+                                        transition: 'bottom 0.8s',
+                                        transitionDelay: '15ms'
+                                   }}
+                                   className={styles.hr}
+                              />
                               <a href={'https://goo.gl/maps/d8ogGgMkRYUo55v49'}>
-                                        
+
                                    <div style={{ cursor: 'pointer' }}>
                                         <div style={{ fontStyle: 'italic' }}>Address</div>
                                         <div>533 King’s Road, Chelsea, London, SW10 0TZ</div>
@@ -47,7 +62,7 @@ const Contact = () => {
                                    <div style={{ cursor: 'pointer' }}>
                                         <div style={{ fontStyle: 'italic' }}>Phone</div>
                                         <div>0208 127 0808</div>
-                                       
+
                                    </div>
                               </Link>
 

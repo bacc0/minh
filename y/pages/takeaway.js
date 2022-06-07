@@ -32,13 +32,28 @@ const Takeaway = () => {
                                    position: 'relative',
                                    bottom: topMenu,
                                    transition: 'bottom 0.8s',
-                                   // background: 'pink',
-                                   // maxWidth: 290
                               }}
 
                          >
-                              <div> <strong>How to use QR code </strong> </div>
-                              <hr className={styles.hr}/>
+                              <div
+                                   style={{
+                                        position: 'relative',
+                                        bottom: topMenu,
+                                        transition: 'bottom 0.8s',
+                                        transitionDelay: '60ms'
+                                   }}
+                              >
+                                   <strong>How to use QR code </strong>
+                              </div>
+                              <hr
+                                   className={styles.hr}
+                                   style={{
+                                        position: 'relative',
+                                        bottom: topMenu,
+                                        transition: 'bottom 0.8s',
+                                        transitionDelay: '15ms'
+                                   }}
+                              />
                               <div> Open the camera app. </div>
                               <div>Focus the camera on the QR code by gently tapping the code.</div>
                               <div>Follow the instructions on the screen to complete the action.</div>
@@ -53,22 +68,22 @@ const Takeaway = () => {
                          top: topMenu,
                          transition: 'top 0.8s',
                     }}
-                    className={styles.separatorBottomPics}
+                         className={styles.separatorBottomPics}
 
                     >
                          <QRcode />
                     </div>
                </div>
-                    <Link href={'/'}>
-                         <div className={styles.logo_corner}>
-                              <img
-                                   src={'/logo.jpg'}
-                                   className={styles.icons}
-                                   width={60}
-                                   alt={'logo'}
-                              />
-                         </div>
-                    </Link>
+               <Link href={'/'}>
+                    <div className={styles.logo_corner}>
+                         <img
+                              src={'/logo.jpg'}
+                              className={styles.icons}
+                              width={60}
+                              alt={'logo'}
+                         />
+                    </div>
+               </Link>
           </div>
      )
 };
