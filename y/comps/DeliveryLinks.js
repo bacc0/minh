@@ -10,16 +10,16 @@ const DeliveryLinks = () => {
                "link": 'https://deliveroo.co.uk/menu/london/chelsea/minh?utm_campaign=organic&utm_medium=referrer&utm_source=menu_share'
           },
           {
+               "src": './iconsDelivery/just-eat.svg',
+               "alt": 'just eat icon',
+               "link": 'https://www.just-eat.co.uk/restaurants-minh-west-brompton/menu'
+          },
+          {
                "src": './iconsDelivery/uber.svg',
                "alt": 'uber icon',
                "link": ''
           },
-          {
-               "src": './iconsDelivery/just-eat.svg',
-               "alt": 'just eat icon',
-               "link": 'https://www.just-eat.co.uk/restaurants-minh-west-brompton/menu'
-          }
-          ,
+          
           {
                "src": './iconsDelivery/panda.svg',
                "alt": 'panda icon',
