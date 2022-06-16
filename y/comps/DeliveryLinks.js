@@ -45,7 +45,8 @@ const DeliveryLinks = () => {
                                    alt={el.alt}
                                       style={{
                                           opacity: el.link === '' ? 0.2 : 1,
-                                          cursor: el.link === '' ? 'not-allowed' :'pointer'
+                                          cursor: el.link === '' ? 'not-allowed' :'pointer',
+                                          filter: el.link === '' ? 'blur(1px)' :'blur(0)',
                                       }}
                                    
                               /> 
