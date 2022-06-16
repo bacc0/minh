@@ -30,7 +30,7 @@ const DeliveryLinks = () => {
                "alt": 'fantuan icon',
                "link": ''
           },
-         
+
      ]
 
 
@@ -39,17 +39,17 @@ const DeliveryLinks = () => {
                {
                     dataImages.map((el) =>
                          <Link href={el.link}>
-                               <img
+                              <img
                                    src={el.src}
                                    className={`${styles.images_menu}`}
                                    alt={el.alt}
-                                      style={{
-                                          opacity: el.link === '' ? 0.2 : 1,
-                                          cursor: el.link === '' ? 'not-allowed' :'pointer',
-                                          filter: el.link === '' ? 'blur(1px)' :'blur(0)',
-                                      }}
-                                   
-                              /> 
+                                   style={{
+                                        opacity: el.link === '' ? 0.2 : 1,
+                                        cursor: el.link === '' ? 'not-allowed' : 'pointer',
+                                        filter: el.link === '' ? 'blur(1px)' : 'blur(0)',
+                                   }}
+
+                              />
 
                          </Link>
                     )
