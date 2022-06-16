@@ -62,7 +62,7 @@
 }
 .main h2 {
      font-family: 'East Sea Dokdo', cursive;
-     font-size: 3.4rem;
+     font-size: 2.8rem;
      line-height: 3rem;
      text-align: center;
      width: 50%;
@@ -186,7 +186,7 @@
 
 @media only screen and (max-width: 862px) {
      .main h2 {
-          
+          font-size: 2.5rem;
           width: 60%;
           margin-bottom: 50px;
      }
@@ -207,7 +207,8 @@
           width: 96%;
           margin-top: 34px;
           margin-bottom: 44px;
-          font-size: 3rem;
+          /* font-size: 3rem; */
+          font-size: 2.1rem;
      }
      .grid {
           width: 100%;
