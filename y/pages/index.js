@@ -9,6 +9,7 @@ import QRcode from '../comps/QRcode'
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import ImgHandleInView from '../comps/Img_handle_inview'
+import DeliveryLinks from '../comps/DeliveryLinks'
 
 
 
@@ -72,7 +73,7 @@ export default function Home() {
           <>
                <div style={{ marginTop: 70, color: 'red' }} />
                <a href={'https://goo.gl/maps/d8ogGgMkRYUo55v49'}>
-                    <h4 style={{ color: '#939393', fontSize: '0.8rem' }}>Restaurant Location</h4>
+                    <h4 style={{ color: '#000000', fontSize: '0.8rem' }}>Restaurant Location</h4>
                     <img
                          src={'./mapBL.svg'}
                          alt={'map location'}
@@ -96,9 +97,14 @@ export default function Home() {
                     style={{ opacity: opacityAll, transition: 'opacity 1s' }}
                >
                     <Logo />
+                    
+                  
+
                     {secondText}
                     {tempContact}
                     {tempPics}
+
+                    <DeliveryLinks/>
                     {mapImg}
                </main>
           </div>
