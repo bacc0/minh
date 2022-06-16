@@ -93,8 +93,9 @@
           }
 
           button:active {
-               background-color: #F4F4F4;
-               border-radius: 11px;
+               // background-color: #F4F4F4;
+               background: linear-gradient(0deg, #E7E7E7 , #F4F4F4 );
+               border-radius: 2px;
           }
      }
 }
