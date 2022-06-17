@@ -58,7 +58,6 @@ const Open_Hours = () => {
                                         }}
                                    />
                                    <p>We take last orders at 9:00pm.</p>
-
                               </div>
                          </div>
                     </div>
@@ -87,5 +86,6 @@ const Open_Hours = () => {
           </div>
      )
 };
+
 
 export default Open_Hours;

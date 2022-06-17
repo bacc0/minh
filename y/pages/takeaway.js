@@ -16,9 +16,8 @@ const Takeaway = () => {
           }, 200);
      }, []);
 
+
      return (
-
-
           <div className={`${styles.grid} ${styles.center_item}`}>
                <div
                     style={{
@@ -61,14 +60,15 @@ const Takeaway = () => {
 
                          </div>
                     </div>
-                    <div style={{
-                         display: 'flex',
-                         justifyContent: 'center',
-                         position: 'relative',
-                         top: topMenu,
-                         transition: 'top 0.8s',
-                    }}
+                    <div
                          className={styles.separatorBottomPics}
+                         style={{
+                              display: 'flex',
+                              justifyContent: 'center',
+                              position: 'relative',
+                              top: topMenu,
+                              transition: 'top 0.8s',
+                         }}
 
                     >
                          <QRcode />

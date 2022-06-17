@@ -3,9 +3,6 @@
      flex-wrap: wrap;
      justify-content: space-evenly;
      width: 630px;
-     // position: relative;
-     // top: 88px;
-     // background-color: aquamarine;
      margin: 100px auto -28px;
 
      .images_menu {
@@ -13,7 +10,6 @@
           margin: 0;
           margin-bottom: 36px;
           cursor: pointer;
-
      }
 }
 
@@ -24,11 +20,9 @@
 
           .images_menu {
                width: 36px;
-               // height: 116px;
                margin: auto;
                object-fit: cover;
                margin-bottom: 20px;
-
           }
      }
 }

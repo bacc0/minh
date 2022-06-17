@@ -51,35 +51,25 @@ const PicsComp = () => {
           // }
      ]
 
+     const styles_container = {
+          '-webkit-filter': `grayscale(${grayscale})`,
+          filter: `grayscale(${grayscale})`,
+          transition: 'filter 3s',
+     }
 
      return (
           <div
                className={styles.container}
-               style={{
-                    '-webkit-filter': `grayscale(${grayscale})`,
-                    filter: `grayscale(${grayscale})`,
-                    transition: 'filter 3s',
-               }}
+               style={styles_container}
           >
                {
                     dataImages.map((el) =>
-                         <>
-
-                            {/*  <ImgHandleInView
-                                   src={el.src}
-                                   alt={el.alt}
-                                   // width={130}
-                                   borderRadius={11}
-                                   style={`${styles.images_menu}`}
-                              />*/}
-                               <img
-                                   key={el.src}
-                                   src={el.src}
-                                   className={`${styles.images_menu}`}
-                                   alt={el.alt}
-                              /> 
-
-                         </>
+                         <img
+                              key={el.src}
+                              src={el.src}
+                              className={`${styles.images_menu}`}
+                              alt={el.alt}
+                         />
                     )
                }
           </div>

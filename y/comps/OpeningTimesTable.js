@@ -20,6 +20,7 @@ const OpeningTimesTable = () => {
 
      return (
           <div className={styles.container}>
+               
                {weekDays('Tuesday', '12:00am - 10:00pm')}
                {weekDays('Wednesday', '12:00am - 10:00pm')}
                {weekDays('Thursday', '12:00am - 10:00pm')}

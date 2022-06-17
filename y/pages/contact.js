@@ -74,10 +74,8 @@ const Contact = () => {
                                              </div>
                                              0203 441 2090
                                         </p>
-
                                    </div>
                               </Link>
-
                          </div>
                     </div>
                     <div

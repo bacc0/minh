@@ -33,6 +33,8 @@ const DeliveryLinks = () => {
 
      ]
 
+     
+
 
      return (
           <div className={styles.container}>
@@ -42,16 +44,14 @@ const DeliveryLinks = () => {
                               <img
                                    key={el.src}
                                    src={el.src}
-                                   className={`${styles.images_menu}`}
                                    alt={el.alt}
+                                   className={`${styles.images_menu}`}
                                    style={{
                                         opacity: el.link === '' ? 0.2 : 1,
                                         cursor: el.link === '' ? 'not-allowed' : 'pointer',
                                         filter: el.link === '' ? 'blur(0.5px)' : 'blur(0)',
                                    }}
-
                               />
-
                          </Link>
                     )
                }

@@ -7,14 +7,11 @@
      .day_container {
           display: flex;
           justify-content: space-between;
-          // background-color: rgba(65, 210, 3, 0.345);
           font-weight: 500;
 
           .day {
                position: relative;
                left: 40px;
           }
-
      }
-     
 }
