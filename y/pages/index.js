@@ -66,7 +66,7 @@ export default function Home() {
                     maxWidth: 400
                }}
           >
-               pan-Asian FOoD, Pub and Restaurant
+               PAN-Asian FOoD, Pub and Restaurant
           </h2>
      );
 

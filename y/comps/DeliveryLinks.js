@@ -40,6 +40,7 @@ const DeliveryLinks = () => {
                     dataImages.map((el) =>
                          <Link href={el.link}>
                               <img
+                                   key={el.src}
                                    src={el.src}
                                    className={`${styles.images_menu}`}
                                    alt={el.alt}

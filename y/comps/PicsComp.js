@@ -73,6 +73,7 @@ const PicsComp = () => {
                                    style={`${styles.images_menu}`}
                               />*/}
                                <img
+                                   key={el.src}
                                    src={el.src}
                                    className={`${styles.images_menu}`}
                                    alt={el.alt}
