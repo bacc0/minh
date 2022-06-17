@@ -18,7 +18,10 @@ const Logo = () => {
                style={{
                     position: 'relative',
                     top: top,
-                    transition:'top .6s'
+                    transition:'top .6s',
+                    // background: 'red',
+                    width: 420,
+                    height: 92
                }}
           >
                <img

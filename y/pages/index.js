@@ -63,6 +63,7 @@ export default function Home() {
                     opacity: opacityAll,
                     bottom: topContact,
                     transition: 'bottom .6s, opacity .6s',
+                    maxWidth: 400
                }}
           >
                pan-Asian FOoD, Pub and Restaurant
