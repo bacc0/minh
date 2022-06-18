@@ -19,7 +19,6 @@ const Logo = () => {
                     position: 'relative',
                     top: top,
                     transition:'top .6s',
-                    width: 420,
                     height: 92
                }}
           >

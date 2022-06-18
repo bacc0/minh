@@ -69,7 +69,6 @@ const Takeaway = () => {
                               top: topMenu,
                               transition: 'top 0.8s',
                          }}
-
                     >
                          <QRcode />
                     </div>
