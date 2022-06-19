@@ -17,6 +17,7 @@ export default function Home() {
      const [opacityAll, setOpacityAll] = useState(0);
      const [topContact, setTopContact] = useState(-8);
      const [topPics, setTopPics] = useState(14);
+     const [zoomImg, setZoomImg] = useState('80%');
 
 
      useEffect(() => {
@@ -27,6 +28,7 @@ export default function Home() {
           setInterval(() => {
                setTopContact(0);
                setTopPics(0);
+               setZoomImg('100%')
           }, 200);
      }, []);
 
@@ -64,8 +66,11 @@ export default function Home() {
                     style={{
                          width: '80%',
                          maxWidth: 450,
-                         minWidth: 300
-                         // margin: '30px 0 0'
+                         minWidth: 300,
+                         zoom: zoomImg,
+                         opacity: opacityAll,
+                         transition: '.2s, opacity 1.2s',
+                         transitionDelay: '0.3s'
                     }}
                />
                <h2
