@@ -21,13 +21,14 @@ const OpeningTimesTable = () => {
      return (
           <div className={styles.container}>
                
+               {weekDays('Monday', '12:00am - 10:00pm')}
                {weekDays('Tuesday', '12:00am - 10:00pm')}
                {weekDays('Wednesday', '12:00am - 10:00pm')}
                {weekDays('Thursday', '12:00am - 10:00pm')}
                {weekDays('Friday', '12:00am - 10:00pm')}
                {weekDays('Saturday', '12:00am - 10:00pm')}
-               {weekDays('Sunday', '12:00am - 10:00pm')}
-               {weekDays('Monday', 'CLOSED')}
+               {weekDays('Sunday', 'CLOSED')}
+               
 
           </div>
      )
