@@ -18,6 +18,8 @@ export default function Home() {
      const [topContact, setTopContact] = useState(-8);
      const [topPics, setTopPics] = useState(14);
      const [zoomImg, setZoomImg] = useState('80%');
+     // const [zoomText, setZoomText,] = useState('94%');
+
 
 
      useEffect(() => {
@@ -28,7 +30,8 @@ export default function Home() {
           setInterval(() => {
                setTopContact(0);
                setTopPics(0);
-               setZoomImg('100%')
+               setZoomImg('100%');
+               // setZoomText('100%');
           }, 200);
      }, []);
 
@@ -78,7 +81,8 @@ export default function Home() {
                          position: 'relative',
                          opacity: opacityAll,
                          bottom: topContact,
-                         transition: 'bottom .6s, opacity .6s',
+                         // zoom: zoomText,
+                         transition: 'bottom .6s, opacity 1.6s',
                          maxWidth: 400
                     }}
                >
