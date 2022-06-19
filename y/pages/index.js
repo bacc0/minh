@@ -10,6 +10,7 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import ImgHandleInView from '../comps/Img_handle_inview'
 import DeliveryLinks from '../comps/DeliveryLinks'
+import IMG_pan_asian from '../comps/IMG_pan_asian'
 
 
 
@@ -18,8 +19,7 @@ export default function Home() {
      const [topContact, setTopContact] = useState(-8);
      const [topPics, setTopPics] = useState(14);
      const [zoomImg, setZoomImg] = useState('80%');
-     // const [zoomText, setZoomText,] = useState('94%');
-
+     const [colorShadow, setColorShadow] = useState('transparent');
 
 
      useEffect(() => {
@@ -31,7 +31,7 @@ export default function Home() {
                setTopContact(0);
                setTopPics(0);
                setZoomImg('100%');
-               // setZoomText('100%');
+               setColorShadow('#C6C6C6')
           }, 200);
      }, []);
 
@@ -62,36 +62,17 @@ export default function Home() {
      );
 
      const secondText = (
-          <>
-               <img
-                    src={'./pan_asian.svg'}
-                    className={`${styles.images_pan_asian}`}
-                    style={{
-                         width: '80%',
-                         maxWidth: 450,
-                         minWidth: 300,
-                         zoom: zoomImg,
-                         opacity: opacityAll,
-                         transition: '.2s, opacity 1.5s',
-                         transitionDelay: '0.3s'
-                    }}
-               />
-               <h2
-                    style={{
-                         position: 'relative',
-                         opacity: opacityAll,
-                         bottom: topContact,
-                         // zoom: zoomText,
-                         transition: 'bottom .6s, opacity 1.6s',
-                         maxWidth: 400
-                    }}
-               >
-
-                    {/* PAN-Asian FOoD,  */}
-                    Pub and Restaurant
-
-               </h2>
-          </>
+          <h2
+               style={{
+                    position: 'relative',
+                    opacity: opacityAll,
+                    bottom: topContact,
+                    transition: 'bottom .6s, opacity 1.6s',
+                    maxWidth: 400
+               }}
+          >
+               Pub and Restaurant
+          </h2>
      );
 
      const mapImg = (
@@ -110,6 +91,10 @@ export default function Home() {
           </>
      );
 
+
+
+
+
      return (
           <div className={styles.container}>
                <Head>
@@ -123,7 +108,12 @@ export default function Home() {
                     style={{ opacity: opacityAll, transition: 'opacity 1s' }}
                >
                     <Logo />
-
+                    <IMG_pan_asian
+                         styles={styles}
+                         zoomImg={zoomImg}
+                         opacityAll={opacityAll}
+                         colorShadow={colorShadow}
+                    />
                     {secondText}
                     {tempContact}
                     {tempPics}
