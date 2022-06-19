@@ -18,8 +18,7 @@ export default function Home() {
      const [opacityAll, setOpacityAll] = useState(0);
      const [topContact, setTopContact] = useState(-8);
      const [topPics, setTopPics] = useState(14);
-     const [zoomImg, setZoomImg] = useState('80%');
-     const [colorShadow, setColorShadow] = useState('transparent');
+
 
 
      useEffect(() => {
@@ -30,8 +29,6 @@ export default function Home() {
           setInterval(() => {
                setTopContact(0);
                setTopPics(0);
-               setZoomImg('100%');
-               setColorShadow('#C6C6C6')
           }, 200);
      }, []);
 
@@ -108,12 +105,7 @@ export default function Home() {
                     style={{ opacity: opacityAll, transition: 'opacity 1s' }}
                >
                     <Logo />
-                    <IMG_pan_asian
-                         styles={styles}
-                         zoomImg={zoomImg}
-                         opacityAll={opacityAll}
-                         colorShadow={colorShadow}
-                    />
+                    <IMG_pan_asian />
                     {secondText}
                     {tempContact}
                     {tempPics}
