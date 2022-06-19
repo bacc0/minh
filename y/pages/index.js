@@ -64,7 +64,7 @@ export default function Home() {
                     style={{
                          width: '80%',
                          maxWidth: 450,
-                         minWidth: 310
+                         minWidth: 300
                          // margin: '30px 0 0'
                     }}
                />
