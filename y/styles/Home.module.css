@@ -186,7 +186,7 @@
 }
 
 .images_pan_asian {
-     margin: 30px 0 0;
+     margin: 34px 0 0;
 }
 
 
@@ -205,8 +205,7 @@
           display: none;
      }
      .images_pan_asian {
-          margin: 6px 0 -0;
-
+          margin: 27px 0 -0;
      }
 }
 
@@ -236,5 +235,8 @@
 
      .separatorBottomPics {
           margin-bottom: 60px;
+     }
+     .images_pan_asian {
+          margin: 21px 0 -0;
      }
 }
