@@ -61,13 +61,16 @@
      font-size: 2rem;
 }
 .main h2 {
-     font-family: 'East Sea Dokdo', cursive;
-     font-size: 2.8rem;
+     /* font-family: 'East Sea Dokdo', cursive; */
+     /* font-size: 2.8rem; */
      line-height: 3rem;
+     letter-spacing: 1px;
      text-align: center;
      width: 50%;
-     margin-top: 20px; 
+     margin-top: -5px; 
      margin-bottom: -23px;
+     font-size: 1.3rem;
+     font-weight: 500;
 }
 
 .title,
@@ -182,13 +185,16 @@
      border-top: 0.5px solid #000000;
 }
 
+.images_pan_asian {
+     margin: 30px 0 0;
+}
 
 
 @media only screen and (max-width: 862px) {
      .main h2 {
-          font-size: 2.5rem;
+          font-size: 1.2rem;
           width: 60%;
-          margin-bottom: 50px;
+          margin: -10px 0 45px;
      }
      .textQR {
           top: 6px;
@@ -198,6 +204,10 @@
      .logo_corner {
           display: none;
      }
+     .images_pan_asian {
+          margin: 6px 0 -0;
+
+     }
 }
 
 @media only screen and (max-width: 560px) {
@@ -205,10 +215,10 @@
      .main h2 {
           
           width: 96%;
-          margin-top: 34px;
-          margin-bottom: 44px;
+          margin-top: 18px;
+          margin-bottom: 36px;
           /* font-size: 3rem; */
-          font-size: 2.1rem;
+          font-size: 1.1rem;
      }
      .grid {
           width: 100%;

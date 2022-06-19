@@ -57,17 +57,32 @@ export default function Home() {
      );
 
      const secondText = (
-          <h2
-               style={{
-                    position: 'relative',
-                    opacity: opacityAll,
-                    bottom: topContact,
-                    transition: 'bottom .6s, opacity .6s',
-                    maxWidth: 400
-               }}
-          >
-               PAN-Asian FOoD, Pub and Restaurant
-          </h2>
+          <>
+               <img
+                    src={'./pan_asian.svg'}
+                    className={`${styles.images_pan_asian}`}
+                    style={{
+                         width: '80%',
+                         maxWidth: 450,
+                         minWidth: 310
+                         // margin: '30px 0 0'
+                    }}
+               />
+               <h2
+                    style={{
+                         position: 'relative',
+                         opacity: opacityAll,
+                         bottom: topContact,
+                         transition: 'bottom .6s, opacity .6s',
+                         maxWidth: 400
+                    }}
+               >
+
+                    {/* PAN-Asian FOoD,  */}
+                    Pub and Restaurant
+
+               </h2>
+          </>
      );
 
      const mapImg = (
@@ -94,15 +109,16 @@ export default function Home() {
                     <link rel="icon" href="/favicon.ico" />
                </Head>
 
-               <main 
+               <main
                     className={styles.main}
                     style={{ opacity: opacityAll, transition: 'opacity 1s' }}
                >
                     <Logo />
+
                     {secondText}
                     {tempContact}
                     {tempPics}
-                    <DeliveryLinks/>
+                    <DeliveryLinks />
                     {mapImg}
                </main>
           </div>

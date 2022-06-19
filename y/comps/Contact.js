@@ -5,8 +5,7 @@ const Contact = () => {
      
      
      return (
-          <div className={styles.container}    
-          >
+          <div className={styles.container} >
                <a href={'https://goo.gl/maps/d8ogGgMkRYUo55v49'}>
                     <p>533 King’s Road</p>
                     <p>Chelsea, London</p>
