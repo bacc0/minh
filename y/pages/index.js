@@ -69,7 +69,7 @@ export default function Home() {
                          minWidth: 300,
                          zoom: zoomImg,
                          opacity: opacityAll,
-                         transition: '.2s, opacity 1.2s',
+                         transition: '.2s, opacity 1.5s',
                          transitionDelay: '0.3s'
                     }}
                />
