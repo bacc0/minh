@@ -13,16 +13,16 @@ const QRcode = () => {
                               className={styles.images_menu}
                               alt="picture QR code"
                               style={{ 
-                                   filter: 'blur(3px)',
-                                   opacity: 0.2,
+                                   // filter: 'blur(3px)',
+                                   // opacity: 0.2,
                                    fontWeight: 700
                               }}
                          />
-                         <div 
+                         {/* <div 
                             style={{
                                  color:'#F10000',
                                  position: 'relative',
-                                 top: -130,
+                                 top: -50,
                                  textAlign: 'center',
                                  textTransform: 'uppercase'
                             }}
@@ -30,7 +30,7 @@ const QRcode = () => {
                               <p>Maintenance!</p>
                               <p>sorry for the</p>
                               <p>inconvenience</p>
-                         </div>
+                         </div> */}
                     </>
                </Link>
           </div>

@@ -23,7 +23,7 @@ const IMG_pan_asian = () => {
                className={`${styles.images_pan_asian}`}
                style={{
                     width: '80%',
-                    maxWidth: 450,
+                    maxWidth: 400,
                     minWidth: 300,
                     zoom: zoomImg,
                     opacity: opacityAll,
