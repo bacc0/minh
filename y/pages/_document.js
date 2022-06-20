@@ -16,7 +16,7 @@ class MyDocument extends Document {
                               as='image'
                               href='other.svg'
                               type='image/svg'
-                              crossorigin='anonymous'
+                              crossOrigin='anonymous'
                          />
 
                          <link 
@@ -24,7 +24,7 @@ class MyDocument extends Document {
                               as='image' 
                               href='other.jpg' 
                               type='image/jpg' 
-                              crossorigin='anonymous' 
+                              crossOrigin='anonymous' 
                          />
 
                     </Head>
