@@ -44,13 +44,13 @@ export default function Home() {
           </div>
      );
 
-     const tempPics = (
+     const foodPics = (
           <div
                style={{
                     textAlign: 'center',
                     position: 'relative',
-                    top: topPics,
-                    transition: 'top .6s',
+                    bottom: topPics,
+                    transition: 'bottom .6s',
                     transitionDelay: '80ms'
                }}
           >
@@ -110,7 +110,7 @@ export default function Home() {
                     <IMG_pan_asian />
                     {secondText}
                     {tempContact}
-                    {tempPics}
+                    {foodPics}
                     <DeliveryLinks />
                     {mapImg}
                </main>
