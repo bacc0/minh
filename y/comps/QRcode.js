@@ -9,7 +9,7 @@ const QRcode = () => {
                <Link href={'/'}>
                     <>
                          <img
-                              src={'./qr.svg'}
+                              src={'./qr_code.svg'}
                               className={styles.images_menu}
                               alt="picture QR code"
                               style={{ 
