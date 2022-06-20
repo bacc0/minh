@@ -50,8 +50,10 @@ export default function Home() {
                     textAlign: 'center',
                     position: 'relative',
                     bottom: topPics,
-                    transition: 'bottom .6s',
-                    transitionDelay: '80ms'
+                    opacity: opacityAll, 
+                    transition: 'bottom .6s, opacity 1s',
+                    
+                    transitionDelay: '0.4s'
                }}
           >
                <PicsComp />
