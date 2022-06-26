@@ -26,8 +26,8 @@ const IMG_pan_asian = () => {
                     maxWidth: 400,
                     minWidth: 300,
                     zoom: zoomImg,
-                    opacity: opacityAll,
-                    transition: '.2s, opacity 1.5s',
+                    opacity: opacityAll, 
+                    transition: '.35s, opacity 1.5s',
                     transitionDelay: '0.3s',
                }}
                version="1.1"
