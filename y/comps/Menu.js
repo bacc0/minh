@@ -62,17 +62,39 @@ const Menu = () => {
                          position: 'relative',
                          bottom: topMenu,
                          transition: 'bottom 0.8s',
+                         marginBottom: 55
                     }}
                >
                     Menu
                </h4>
 
-               <div style={{
-                    marginBottom: 55
-               }}
-               ></div>
+               {/* <div>hhh</div> */}
 
+               {/* <embed
+    src="menu/menu.pdf"
+    type="application/pdf"
+    frameBorder="0"
+    scrolling="auto"
+    height="500px"
+    width="80vw"
+></embed> */}
                <div
+                    className={styles.image_container}
+                    style={{
+                         textAlign: 'center',
+                         position: 'relative',
+                         top: topMenu,
+                         transition: 'top 1.1s'
+                    }}
+               >
+                    <img
+                         src={'./menu/menu.png'}
+                         className={styles.image_menu}
+                         alt="picture Menu soft drinks"
+                    />
+               </div>
+
+               {/* <div
                     style={{
                          textAlign: 'center',
                          position: 'relative',
@@ -98,7 +120,7 @@ const Menu = () => {
                          className={styles.images_menu}
                          alt="picture Menu desserts"
                     />
-               </div>
+               </div> */}
           </div>
      )
 };

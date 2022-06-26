@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 
 
 const IMG_pan_asian = () => {
-     const [zoomImg, setZoomImg] = useState('80%');
+     const [zoomImg, setZoomImg] = useState('96%');
      const [opacityAll, setOpacityAll] = useState(0);
      const [colorShadow, setColorShadow] = useState('transparent');
 

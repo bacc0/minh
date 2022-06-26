@@ -4,37 +4,57 @@
      top: 31px;
      margin-bottom: 214px;
 
-     .desserts {
-          background-color: #F4F4F4;
-          width: 220px;
-          border-radius: 11px;
-          position: relative;
-          top: 66px;
-          left: -2px;
-          padding: 11px 0px 5px 0px;
-          margin: auto;
-          margin-bottom: 30px;
 
-          img {
-               width: 220px;
-          }
-     }
 
-     .container {
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: space-around;
-          position: relative;
-          top: 20px;
 
-          .container_items {
-               display: flex;
-               flex-wrap: wrap;
-               justify-content: center;
 
-               .images_menu {
-                    width: 200px;
-               }
+
+
+     // .desserts {
+     //      background-color: #F4F4F4;
+     //      width: 220px;
+     //      border-radius: 11px;
+     //      position: relative;
+     //      top: 66px;
+     //      left: -2px;
+     //      padding: 11px 0px 5px 0px;
+     //      margin: auto;
+     //      margin-bottom: 30px;
+
+     //      img {
+     //           width: 220px;
+     //      }
+     // }
+
+     // .container {
+     //      display: flex;
+     //      flex-wrap: wrap;
+     //      justify-content: space-around;
+     //      position: relative;
+     //      top: 20px;
+
+     //      .container_items {
+     //           display: flex;
+     //           flex-wrap: wrap;
+     //           justify-content: center;
+
+     //           .images_menu {
+     //                width: 200px;
+     //           }
+     //      }
+     // }
+
+     .image_container {
+          overflow: scroll;
+          border-left: 1px solid #F5F4F4;
+          border-right: 1px solid #F5F4F4;
+          width: 70vw;
+          max-width: 800px;
+          height: 520px;
+         
+          .image_menu {
+               width: 70vw;
+               width: 900px;
           }
      }
 }
@@ -44,19 +64,19 @@
      .base {
           top: 31px;
 
-          .desserts {
-               width: 220px;
-               left: -2px;
-          }
+          // .desserts {
+          //      width: 220px;
+          //      left: -2px;
+          // }
 
-          .container {
-               
-               .container_items {
-                    .images_menu {
-                         width: 245px;
-                    }
-               }
-          }
+          // .container {
+
+          //      .container_items {
+          //           .images_menu {
+          //                width: 245px;
+          //           }
+          //      }
+          // }
      }
 }
 
@@ -65,23 +85,38 @@
           margin-bottom: 228px;
           top: 23px;
 
-          .desserts {
-               width: 248px;
-               top: 92px;
-               left: 2px;
-               img {
-                    width: 250px;
+
+          .image_container {
+             
+               width: 90vw;
+               height: 700px;
+     
+               .image_menu {
+                    width: 70vw;
+                    width: 1200px;
                }
           }
 
-          .container {
-               top: 26px;
 
-               .container_items {
-                    .images_menu {
-                         width: 290px;
-                    }
-               }
-          }
+
+          // .desserts {
+          //      width: 248px;
+          //      top: 92px;
+          //      left: 2px;
+
+          //      img {
+          //           width: 250px;
+          //      }
+          // }
+
+          // .container {
+          //      top: 26px;
+
+          //      .container_items {
+          //           .images_menu {
+          //                width: 290px;
+          //           }
+          //      }
+          // }
      }
 }
