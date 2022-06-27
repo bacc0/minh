@@ -27,9 +27,7 @@ class MyDocument extends Document {
                               crossOrigin='anonymous' 
                          />
 
-<meta property="og:image" content={`./logo.svg`}/>  
-<meta property="og:title" content="Title"/>  
-<meta property="og:description" content="description"/>  
+
 
                     </Head>
                     <body>
