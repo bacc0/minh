@@ -102,6 +102,11 @@ export default function Home() {
                     <title>MINH 🍝 Pan Asian Restaurant</title>
                     <meta name="minh" content="Gpan-Asian FOoD, Pub and Restaurant" />
                     <link rel="icon" href="/favicon.ico" />
+
+                    <meta property="og:image" content={`./logo.svg`}/>  
+<meta property="og:title" content="Title"/>  
+<meta property="og:description" content="description"/>  
+                    
                </Head>
 
                <main
