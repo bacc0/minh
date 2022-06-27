@@ -104,8 +104,7 @@ export default function Home() {
                     <link rel="icon" href="/favicon.ico" />
 
                     <meta property="og:image" content={`./logo.svg`}/>  
-<meta property="og:title" content="Title"/>  
-<meta property="og:description" content="description"/>  
+
                     
                </Head>
 
