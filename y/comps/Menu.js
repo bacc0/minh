@@ -84,7 +84,9 @@ const Menu = () => {
                          textAlign: 'center',
                          position: 'relative',
                          top: topMenu,
-                         transition: 'top 1.1s'
+                         transition: 'top 1.1s',
+                        
+                          
                     }}
                >
                     <img
