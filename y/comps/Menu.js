@@ -87,7 +87,7 @@ const Menu = () => {
                          // position: 'relative',
                          // top: topMenu,
                          // transition: 'top 1.1s',
-                        
+                         borderRadius: 2
                           
                     }}
                >
@@ -96,8 +96,8 @@ const Menu = () => {
                          position: 'relative',
                          right: rightMenu,
                          transition: 'right 1.6s',
-                        transitionDelay: '0.25s'
-                          
+                        transitionDelay: '0.25s',
+                         
                     }}
                          src={'./menu/menu.png'}
                          className={styles.image_menu}
