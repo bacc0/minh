@@ -21,6 +21,7 @@ const Logo = () => {
                     transition:'top .6s',
                     height: 92
                }}
+               className={styles.logo_container}
           >
                <img
                     src={'./logo.svg'}

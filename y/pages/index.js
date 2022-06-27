@@ -66,10 +66,10 @@ export default function Home() {
                     position: 'relative',
                     opacity: opacityAll,
                     top: topContact,
-                    transition: 'top .5s, opacity 1.4s',
+                    transition: 'top .5s, opacity 2.4s',
                     // transition: 'opacity 2.6s',
                     // maxWidth: 400
-                    transitionDelay: '0.4s'
+                    transitionDelay: '0.7s'
                }}
           >
                Pub and Restaurant

@@ -1,13 +1,21 @@
-.logo {
+.logo_container {
      width: 420px;
-     position: relative;
-     top: -28px;
-     left: 2px;
+     
+     .logo {
+          width: 420px;
+          position: relative;
+          top: -28px;
+          left: 2px;
+     }
 }
 
 @media only screen and (max-width: 560px) {
-     .logo {
-          top: -30px;
+     .logo_container {
           width: 300px;
+          .logo {
+               top: -30px;
+               width: 300px;
+          }
      }
+
 }
