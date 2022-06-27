@@ -6,6 +6,7 @@ import styles from './Menu.module.scss';
 const Menu = () => {
 
      const [topMenu, setTopMenu] = useState(14);
+     const [rightMenu, setRightMenu] = useState(30);
      const [opacity, setOpacity] = useState(0);
 
      const img_1 = (
@@ -42,6 +43,7 @@ const Menu = () => {
      useEffect(() => {
           setInterval(() => {
                setTopMenu(0);
+               setRightMenu(0);
                setOpacity(1)
           }, 100);
      }, []);
@@ -82,14 +84,21 @@ const Menu = () => {
                     className={styles.image_container}
                     style={{
                          textAlign: 'center',
-                         position: 'relative',
-                         top: topMenu,
-                         transition: 'top 1.1s',
+                         // position: 'relative',
+                         // top: topMenu,
+                         // transition: 'top 1.1s',
                         
                           
                     }}
                >
                     <img
+                     style={{
+                         position: 'relative',
+                         right: rightMenu,
+                         transition: 'right 1.6s',
+                        
+                          
+                    }}
                          src={'./menu/menu.png'}
                          className={styles.image_menu}
                          alt="picture Menu soft drinks"
