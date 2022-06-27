@@ -90,7 +90,7 @@ const Menu = () => {
                     }}
                >
                     <img
-                         src={'./menu/menu.svg'}
+                         src={'./menu/menu.png'}
                          className={styles.image_menu}
                          alt="picture Menu soft drinks"
                     />
