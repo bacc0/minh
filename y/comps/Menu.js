@@ -96,7 +96,7 @@ const Menu = () => {
                          position: 'relative',
                          right: rightMenu,
                          transition: 'right 1.6s',
-                        
+                        transitionDelay: '0.25s'
                           
                     }}
                          src={'./menu/menu.png'}
