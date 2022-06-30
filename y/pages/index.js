@@ -17,7 +17,7 @@ import IMG_pan_asian from '../comps/IMG_pan_asian'
 export default function Home() {
      const [opacityAll, setOpacityAll] = useState(0);
      const [topContact, setTopContact] = useState(-8);
-     const [topPics, setTopPics] = useState(14);
+     // const [topPics, setTopPics] = useState(14);
 
 
 
@@ -28,50 +28,37 @@ export default function Home() {
 
           setInterval(() => {
                setTopContact(0);
-               setTopPics(0);
+               // setTopPics(0);
           }, 200);
      }, []);
 
+     const style_animation_main = {
+          position: 'relative',
+          opacity: opacityAll,
+          top: topContact,
+          transition: 'top .5s, opacity 2.4s',
+          transitionDelay: '0.7s'
+     }
+
      const tempContact = (
-          <div
-               style={{
-                    position: 'relative',
-                    top: topContact,
-                    transition: 'top 0.6s',
-               }}
-          >
-               <Contact />
-          </div>
+          <>
+               <div style={style_animation_main} >
+                    <Contact />
+               </div>
+               {/* <div className={styles.contact_desktop}>
+                    <Contact />
+               </div> */}
+          </>
      );
 
      const foodPics = (
-          <div
-               style={{
-                    textAlign: 'center',
-                    position: 'relative',
-                    bottom: topPics,
-                    opacity: opacityAll, 
-                    transition: 'bottom .6s, opacity 1s',
-                    
-                    transitionDelay: '0.4s'
-               }}
-          >
+          <div style={style_animation_main}>
                <PicsComp />
           </div>
      );
 
      const secondText = (
-          <h2
-               style={{
-                    position: 'relative',
-                    opacity: opacityAll,
-                    top: topContact,
-                    transition: 'top .5s, opacity 2.4s',
-                    // transition: 'opacity 2.6s',
-                    // maxWidth: 400
-                    transitionDelay: '0.7s'
-               }}
-          >
+          <h2 style={style_animation_main}>
                Pub and Restaurant
           </h2>
      );
@@ -103,9 +90,9 @@ export default function Home() {
                     <meta name="minh" content="Gpan-Asian FOoD, Pub and Restaurant" />
                     <link rel="icon" href="/favicon.ico" />
 
-                    <meta property="og:image" content={`./logo.svg`}/>  
+                    <meta property="og:image" content={`./logo.svg`} />
 
-                    
+
                </Head>
 
                <main

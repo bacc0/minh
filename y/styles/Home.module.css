@@ -26,11 +26,7 @@
      text-align: center;
 }
 
-@media only screen and (max-width: 560px) {
-     .footer {
-          font-size: 10px;
-     }
-}
+
 
 
 .footer a {
@@ -56,10 +52,12 @@
      line-height: 1.15;
      font-size: 4rem;
 }
+
 .eastSeaDokdo_font {
      font-family: 'East Sea Dokdo', cursive;
      font-size: 2rem;
 }
+
 .main h2 {
      /* font-family: 'East Sea Dokdo', cursive; */
      /* font-size: 2.8rem; */
@@ -67,7 +65,7 @@
      letter-spacing: 1px;
      text-align: center;
      width: 50%;
-     margin-top: -5px; 
+     margin-top: -5px;
      margin-bottom: -23px;
      font-size: 1.3rem;
      font-weight: 500;
@@ -99,13 +97,13 @@
      justify-content: center;
      flex-wrap: wrap;
      max-width: 800px;
-     padding-top:0px
+     padding-top: 0px
 }
 
 .center_item {
      margin: auto;
      min-height: calc(90vh - 100px);
-     
+
      position: relative;
      /* border: 3px dotted green;  */
 }
@@ -159,7 +157,7 @@
      line-height: 1.4rem;
 
      font-size: 0.8rem;
-          line-height: 1.3rem;
+     line-height: 1.3rem;
 
 }
 
@@ -189,6 +187,13 @@
      margin: 34px 0 0;
 }
 
+/* .contact_mobile {
+     display: none;
+}
+
+.contact_desktop {
+     display: block;
+} */
 
 @media only screen and (max-width: 862px) {
      .main h2 {
@@ -196,29 +201,41 @@
           width: 60%;
           margin: -10px 0 45px;
      }
+
      .textQR {
           top: 6px;
-          
+
      }
 
      .logo_corner {
           display: none;
      }
+
      .images_pan_asian {
           margin: 27px 0 -0;
      }
+     /* .contact_mobile {
+          display: block;
+     }
+     
+     .contact_desktop {
+          display: none;
+     } */
 }
+
+
 
 @media only screen and (max-width: 560px) {
 
      .main h2 {
-          
+
           width: 96%;
           margin-top: 18px;
           margin-bottom: 36px;
           /* font-size: 3rem; */
           font-size: 1.1rem;
      }
+
      .grid {
           width: 100%;
           flex-direction: column;
@@ -230,13 +247,18 @@
           top: 20px;
           font-size: 1.1rem;
           line-height: 1.5rem;
-          
+
      }
 
      .separatorBottomPics {
           margin-bottom: 60px;
      }
+
      .images_pan_asian {
           margin: 21px 0 -0;
+     }
+
+     .footer {
+          font-size: 10px;
      }
 }
