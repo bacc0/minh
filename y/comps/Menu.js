@@ -99,7 +99,7 @@ const Menu = () => {
                         transitionDelay: '0.25s',
                          
                     }}
-                         src={'./menu/menu.png'}
+                         src={'./menu/menu_all.png'}
                          className={styles.image_menu}
                          alt="picture Menu soft drinks"
                     />
